@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SendEmail.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SmtpServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">smtp.gmail.com</Value>
+    </Setting>
+    <Setting Name="EmailAuthen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">teamdevelop.mst@gmail.com</Value>
+    </Setting>
+    <Setting Name="PasswordAuthen" Type="System.String" Scope="User">
+      <Value Profile="(Default)">m$T@2021</Value>
+    </Setting>
+    <Setting Name="FromEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">teamdevelop.mst@gmail.com</Value>
+    </Setting>
+    <Setting Name="Subject" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[ทดสอบ] Restart elastic service ไม่สำเร็จ</Value>
+    </Setting>
+    <Setting Name="SmtpPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="Ssl" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ToEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ratchanon.s@magicsoftware.co.th,takneekar.s@magicsoftware.co.th</Value>
+    </Setting>
+    <Setting Name="CcEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">choosak.j@magicsoftware.co.th</Value>
+    </Setting>
+    <Setting Name="Body" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;div&gt;ระบบไม่สามารถ restart elastic service ไม่สำเร็จ โปรดตรวจสอบ&lt;/div&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
