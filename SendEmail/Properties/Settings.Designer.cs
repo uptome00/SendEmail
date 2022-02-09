@@ -142,5 +142,41 @@ namespace SendEmail.Properties {
                 this["Body"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("cfrm_en_ntl")]
+        public string TomcatServiceName {
+            get {
+                return ((string)(this["TomcatServiceName"]));
+            }
+            set {
+                this["TomcatServiceName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("cfrm_en_ntl")]
+        public string ElasticSearchService {
+            get {
+                return ((string)(this["ElasticSearchService"]));
+            }
+            set {
+                this["ElasticSearchService"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("60")]
+        public int WaitForStatusTimeoutSecond {
+            get {
+                return ((int)(this["WaitForStatusTimeoutSecond"]));
+            }
+            set {
+                this["WaitForStatusTimeoutSecond"] = value;
+            }
+        }
     }
 }

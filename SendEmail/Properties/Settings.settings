@@ -32,5 +32,14 @@
     <Setting Name="Body" Type="System.String" Scope="User">
       <Value Profile="(Default)">&lt;div&gt;ระบบไม่สามารถ restart elastic service ไม่สำเร็จ โปรดตรวจสอบ&lt;/div&gt;</Value>
     </Setting>
+    <Setting Name="TomcatServiceName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cfrm_en_ntl</Value>
+    </Setting>
+    <Setting Name="ElasticSearchService" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cfrm_en_ntl</Value>
+    </Setting>
+    <Setting Name="WaitForStatusTimeoutSecond" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
